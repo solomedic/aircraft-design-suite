@@ -21,13 +21,18 @@ pytest
 1. Push this repository to GitHub.
 2. In Streamlit Community Cloud, create a new app from the GitHub repo.
 3. Set the main file path to `app.py`.
-4. Confirm the required packages are installed from `requirements.txt`.
+4. Set branch to `main`.
+5. Confirm the required packages are installed from `requirements.txt`.
+6. Ensure Python runtime is read from `runtime.txt` (`python-3.11`).
+
+If Cloud logs show packages that are not in `requirements.txt` (for example `rich==15.0.0`), double-check that the app points to the correct repo and branch, then clear cache and redeploy.
 
 ## After Hosting
 
 1. Verify the app opens without dependency errors.
 2. Confirm the images load correctly from the repository root.
 3. If you update the app, push to GitHub again and let Streamlit redeploy automatically.
+4. If the build fails, use `Manage app` -> `Reboot app` and `Clear cache`.
 
 ## GitHub remote
 
