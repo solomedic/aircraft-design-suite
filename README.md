@@ -1,6 +1,6 @@
-# Aircraft Design Toolbox
+# aircraft-design-suite
 
-This repository contains the Streamlit app for the Aircraft Design Toolbox based on Nicolai, Raymer, and Sadraey methods.
+Aircraft Design Toolbox based on Nicolai Design Book is developed in this repository. It is a working development repo for the Streamlit-based aircraft design suite.
 
 ## Run locally
 
@@ -24,9 +24,8 @@ streamlit run app.py
 
 ## GitHub remote
 
-If you want to connect this workspace to the target repository, use:
+The repository is configured for:
 
 ```bash
-git init
-git remote add origin https://github.com/solomedic/aircraft-design-suite.git
+https://github.com/solomedic/aircraft-design-suite.git
 ```
