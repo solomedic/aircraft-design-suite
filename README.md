@@ -9,6 +9,13 @@ python -m pip install -r requirements.txt
 streamlit run app.py
 ```
 
+If you want to run the tests locally, install the dev dependency as well:
+
+```bash
+python -m pip install -r requirements-dev.txt
+pytest
+```
+
 ## Deploy to Streamlit Community Cloud
 
 1. Push this repository to GitHub.
